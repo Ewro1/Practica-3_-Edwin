@@ -26,8 +26,6 @@ Características y Desarrollo Clave
 
 Estructura del Repositorio
 
-Estructura del Repositorio
-
 El proyecto sigue una estructura profesional de desarrollo de librerías Python, organizada de la siguiente manera:
 
     README.md
