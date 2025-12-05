@@ -26,29 +26,50 @@ Características y Desarrollo Clave
 
 Estructura del Repositorio
 
-El proyecto sigue una estructura profesional de desarrollo de librerías Python:
+Estructura del Repositorio
 
-practica3-ctg/
-├─ README.md
-├─ requirements.txt
-├─ data/
-│   └─ CTG.csv
-├─ notebooks/
-│   └─ main.ipynb
-├─ src/
-│   └─ ctg_viz/
-│       ├─ __init__.py
-│       ├─ preprocessing.py
-│       ├─ categorization.py
-│       ├─ utils.py
-│       └─ plots/
-│           ├─ __init__.py
-│           ├─ histograms.py
-│           ├─ boxplots.py
-│           ├─ barplots.py
-│           ├─ density.py
-│           └─ heatmap.py
-└─ tests/
-    ├─ test_preprocessing.py
-    ├─ test_categorization.py
-    └─ test_utils.py
+El proyecto sigue una estructura profesional de desarrollo de librerías Python, organizada de la siguiente manera:
+
+    README.md
+
+    requirements.txt
+
+    data/
+
+        CTG.csv (Conjunto de datos utilizado en el análisis)
+
+    notebooks/
+
+        main.ipynb (Notebook de demostración del uso de la librería y el Análisis Exploratorio)
+
+    src/
+
+        ctg_viz/ (Módulo principal de la librería)
+
+            __init__.py
+
+            preprocessing.py (Lógica para limpieza, nulos y outliers)
+
+            categorization.py (Clasificación automática de variables)
+
+            utils.py
+
+            plots/ (Submódulo que contiene las funciones de visualización)
+
+                histograms.py
+
+                boxplots.py
+
+                barplots.py
+
+                density.py
+
+                heatmap.py
+
+    tests/
+
+        test_preprocessing.py (Pruebas unitarias para el módulo de preprocesamiento)
+
+        test_categorization.py
+
+        test_utils.py
