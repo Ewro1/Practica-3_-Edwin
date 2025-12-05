@@ -46,27 +46,4 @@ practica3-ctg/
 │           ├─ boxplots.py
 │           └─ ...
 └─ tests/
-    └─ ...          # Archivos de pruebas unitarias con pytest
-
-Guía de Uso
-
-    Clonar el repositorio:
-    Bash
-
-git clone https://github.com/Ewro1/Practica-3_-Edwin.git
-cd Practica-3_-Edwin
-
-Instalar dependencias:
-Bash
-
-pip install -r requirements.txt
-
-Ejecutar el Análisis: Abrir el notebook main.ipynb para revisar el proceso analítico y probar las funciones de la librería.
-Bash
-
-jupyter notebook notebooks/main.ipynb
-
-Ejecutar Pruebas (Opcional):
-Bash
-
-    pytest tests/
+  
