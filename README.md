@@ -1,4 +1,5 @@
 # Practica-3_-Edwin Martínez
+Aquí tienes el README.md completo, con la estructura de Markdown y sin adornos, para que se vea perfectamente formateado y profesional en tu repositorio de GitHub.
 Práctica 3: Análisis Exploratorio y Librería de Visualización CTG
 
 Este repositorio documenta el desarrollo completo de la Práctica 3 del diplomado, enfocada en el Análisis Exploratorio de Datos (EDA) avanzado y la Ingeniería de Software para Ciencia de Datos.
@@ -46,4 +47,4 @@ practica3-ctg/
 │           ├─ boxplots.py
 │           └─ ...
 └─ tests/
-  
+    └─ ...          # Archivos de pruebas unitarias con pytest
