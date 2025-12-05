@@ -34,7 +34,7 @@ practica3-ctg/
 ├─ data/
 │   └─ CTG.csv
 ├─ notebooks/
-│   └─ main.ipynb   # Notebook de demostración del uso de la librería y el EDA
+│   └─ main.ipynb
 ├─ src/
 │   └─ ctg_viz/
 │       ├─ __init__.py
@@ -45,6 +45,10 @@ practica3-ctg/
 │           ├─ __init__.py
 │           ├─ histograms.py
 │           ├─ boxplots.py
-│           └─ ...
+│           ├─ barplots.py
+│           ├─ density.py
+│           └─ heatmap.py
 └─ tests/
-    └─ ...          # Archivos de pruebas unitarias con pytest
+    ├─ test_preprocessing.py
+    ├─ test_categorization.py
+    └─ test_utils.py
